@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="div1">
+        <input type="number" id="IputNo1">
+        +
+        <input type="number" id="IputNo2">
+        
+        <button onclick="addition()">Addition</button>
+
+        <div id="result"></div>
+    </div>
+    <script>
+        function addition() {
+            let InputNo1 = document.querySelector("#IputNo1").value;
+            let InputNo2 = document.querySelector("#IputNo2").value;
+            let result = Number(InputNo1) + Number(InputNo2)
+            document.querySelector("#result").innerText = result;
+        }
+    </script>
+</body>
+</html>

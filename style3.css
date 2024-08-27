@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    width: 100%;
+}
+#div1 input {
+    margin: 10px;
+}
+#result {
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
